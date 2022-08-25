@@ -1,16 +1,9 @@
-if SHIELD_MY_BOARD_LEFT
+if SHIELD_Left_Boi
 
 config ZMK_KEYBOARD_NAME
-    default "My Board"
+    default "Left_Boi"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
-if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
-
-config ZMK_SPLIT
     default y
 
 endif
